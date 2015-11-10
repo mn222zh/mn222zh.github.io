@@ -3,8 +3,10 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    border-bottom: 10px solid $grey-color-light;
+    min-height: 156px;
+    background-image:url(../top-left-logo.png);
+    background-repeat: no-repeat;
 
     // Positioning context for the mobile navigation icon
     position: relative;
