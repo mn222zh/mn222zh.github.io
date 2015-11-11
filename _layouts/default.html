@@ -9,7 +9,14 @@
 
     <div class="page-content">
       <div class="wrapper">
-        {{ content }}
+          <div id="left">
+              {% include sidebar.html %}
+          </div>
+          <div id="right">
+              <div class="article">
+              {{ content }}
+              </div>
+          </div>
       </div>
     </div>
 

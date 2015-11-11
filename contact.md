@@ -4,6 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-Hoppas denna dyker upp på menyn som en kontaktsida.
+Feel welcome to drop me a mail at "mn222zh(at)student.lnu.se"
 
 

@@ -1,12 +1,21 @@
 /**
+ * My stylez
+ */
+#left {float:left; width: 15%;}
+#right {margin-left:18%; }
+.article {border: 2px solid; padding: 5%; background-color: #fff; box-shadow:6px 6px 5px #888;
+    border-radius: 5px; margin-top:1px;font-family:arial; font-size:16px;overflow: auto;}
+
+/**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 10px solid $grey-color-light;
-    min-height: 156px;
+ //   border-top: 5px solid $grey-color-dark;
+    border-bottom: 3px solid $black-color;
+    min-height: 170px;
     background-image:url(../top-left-logo.png);
     background-repeat: no-repeat;
+    text-align: right;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -94,8 +103,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 3px solid $black-color;
     padding: $spacing-unit 0;
+    background-repeat: no-repeat;
 }
 
 .footer-heading {
@@ -165,6 +175,8 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-image:url(../middle.png);
+    background-repeat: no-repeat;
 }
 
 .page-heading {
