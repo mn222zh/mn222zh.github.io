@@ -4,14 +4,12 @@ layout: default
 
 <div class="home">
 
-  <h1 class="post-header">Jekyll - easy as... Ehhh... Building LEGO!</h1>
+  <h1 class="post-title">Blog</h1>
 
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
+    <span class="date">{{ post.date | date: '%d %B, %Y' }}</span>
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
-        <span class="date">{{ post.date }}</span>
-    </p>
     {% endfor %}
 
     <!-- Pagination links -->

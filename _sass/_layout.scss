@@ -10,8 +10,7 @@
  * Site header
  */
 .site-header {
- //   border-top: 5px solid $grey-color-dark;
- //   border-bottom: 3px solid $black-color;
+   border-top: 5px solid $grey-color-dark;
     min-height: 165px;
     background: url(../top-left-logo.png) left top no-repeat;
     text-align: right;
@@ -102,9 +101,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 3px solid $black-color;
+ //   border-top: 3px solid $black-color;
     padding: $spacing-unit 0;
-    background-repeat: no-repeat;
+    background: url(../legobit.png) left top no-repeat;
 }
 
 .footer-heading {
@@ -175,10 +174,6 @@
 .page-content {
     padding: $spacing-unit 0;
     background: url(../middle.png) left top no-repeat;
-  //  background-image:url(../top-left-logo.png);
-  //  background-repeat: no-repeat;
-  //  background-image:url(../middle.png);
-  //  background-repeat: no-repeat;
 }
 
 .page-heading {

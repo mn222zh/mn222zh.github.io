@@ -32,18 +32,21 @@ SSG’s are commonly used for blogs. But the concept is suitable for projects wh
 
 Robots.txt is a file in the root of a website that gives instructions to robots from search-engines  which pages to index. The configuration for my site tells robots from Google that they are welcome to index the entire site, and that all other robots are not wanted.
 
+{% highlight ruby %}
 User-agent: Google
 Disallow:
 
 User-agent: *
 Disallow: /
+{% endhighlight %}
+
 
 
 ### What is humans.txt and how have you configure it for your site?
 
 Humans.txt is a file in the root of a website where the owner of a site can write credits to people involved in the site, general information etc.
 
-
+{% highlight ruby %}
 /* TEAM */
 
     Developer: Magnus
@@ -68,6 +71,8 @@ Humans.txt is a file in the root of a website where the owner of a site can writ
     Standards: HTML5, CSS3
     Components: Jekyll, GitHub
     Software: WebStorm, Vagrant, Illustrator
+
+{% endhighlight %}
 
 
 ### How did you implements comments to blog posts
