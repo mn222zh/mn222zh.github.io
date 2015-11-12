@@ -1,19 +1,24 @@
+
 /* TEAM */
 	Developer: Magnus
     Mail: mn222zh(at)student.lnu.se
 	From: Kalmar, Sweden
 
-	Support: Staff at LNU
-	From: Kalmar, Sweden
-
-	"Design": Magnus
+	Design?: Magnus
     Mail: mn222zh(at)student.lnu.se
 	From: Kalmar, Sweden
 
+/* SUPPORT */
+
+	Support: Staff at LNU
+	From: Kalmar, Sweden
+
+    Support: Bea - my pet hedgehog, for keeping me company during late nights
+    From: Box in the corner, Kalmar, Sweden
 
 
 /* SITE */
 	Language: English
-	Standards: HTML5
+	Standards: HTML5, CSS3
 	Components: Jekyll, GitHub
 	Software: WebStorm, Vagrant, Illustrator

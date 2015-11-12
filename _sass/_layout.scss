@@ -1,20 +1,19 @@
 /**
  * My stylez
  */
-#left {float:left; width: 15%;}
-#right {margin-left:18%; }
-.article {border: 2px solid; padding: 5%; background-color: #fff; box-shadow:6px 6px 5px #888;
-    border-radius: 5px; margin-top:1px;font-family:arial; font-size:16px;overflow: auto;}
+#left {float:left; width: 220px;}
+#right {margin-left:300px; }
+.article {border: 2px solid; padding: 5%; background-color: #ffffff; box-shadow:6px 6px 5px #444;
+    border-radius: 5px; overflow: auto; opacity: 0.85; margin-bottom: 20px;}
 
 /**
  * Site header
  */
 .site-header {
  //   border-top: 5px solid $grey-color-dark;
-    border-bottom: 3px solid $black-color;
-    min-height: 170px;
-    background-image:url(../top-left-logo.png);
-    background-repeat: no-repeat;
+ //   border-bottom: 3px solid $black-color;
+    min-height: 165px;
+    background: url(../top-left-logo.png) left top no-repeat;
     text-align: right;
 
     // Positioning context for the mobile navigation icon
@@ -175,8 +174,11 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    background-image:url(../middle.png);
-    background-repeat: no-repeat;
+    background: url(../middle.png) left top no-repeat;
+  //  background-image:url(../top-left-logo.png);
+  //  background-repeat: no-repeat;
+  //  background-image:url(../middle.png);
+  //  background-repeat: no-repeat;
 }
 
 .page-heading {
