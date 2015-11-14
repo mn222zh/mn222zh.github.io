@@ -24,7 +24,7 @@ in html looked very much like the md-files I write here today. Less is more..
 Used to program assembler on commodore-computers in the 80th and 90th, but hasn't done any real programming for years.
 
 One of the last things I coded was a HTML-reader for the C64 in 1992. It handled the basic tags in HTML 1.1, but I guess it would
-render the output from a markdown-file just fine. Quite ok for a 30 year old computer, running at 1 MHz, with 64km of memory...
+render the output from a markdown-file just fine. Quite ok for a 30 year old computer, running at 1 MHz, with 64kb of memory...
 
 Happy Hack'in
 /Magnus

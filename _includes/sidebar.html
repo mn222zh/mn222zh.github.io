@@ -1,13 +1,13 @@
 
 <div class="article">
-    <h1>/site_nav</h1>
+    <h2>/site_nav</h2>
     <hr>
     <p></p>
-    <a class="page-link" href="{{ site.baseurl }}/">Blog</a>
+    <a class="sidebar-link" href="{{ site.baseurl }}/">Blog</a>
     <p></p>
     {% for page in site.pages %}
         {% if page.title %}
-            <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
+            <a class="sidebar-link" href="{{ page.url }}">{{ page.title }}</a>
             <p></p>
         {% endif %}
     {% endfor %}
@@ -15,14 +15,28 @@
 </div>
 
 <div class="article">
-    <h1>/resources</h1>
+    <h2>/resources</h2>
     <hr>
     <p></p>
-    <a class="page-link" href="http://www.w3schools.com/css/default.asp">CSS@w3schools</a>
+    <a class="sidebar-link" href="http://www.w3schools.com/css/default.asp">CSS@w3schools</a>
     <p></p>
-    <a class="page-link" href="http://www.jekyllrb.com">jekyll-dox</a>
+    <a class="sidebar-link" href="http://www.jekyllrb.com">jekyll-dox</a>
     <p></p>
-    <a class="page-link" href="http://www.webbprogrammerare.se">wp@lnu</a>
+    <a class="sidebar-link" href="http://www.webbprogrammerare.se">wp@lnu</a>
+    <p></p>
+
+    <hr>
+</div>
+
+<div class="article">
+    <h2>/4fun</h2>
+    <hr>
+    <p></p>
+    <a class="sidebar-link" href="http://www.c64.sk">c64-portal</a>
+    <p></p>
+    <a class="sidebar-link" href="http://www.unisys.com">my employer</a>
+    <p></p>
+    <a class="sidebar-link" href="https://www.youtube.com/watch?v=txtMy7N1Fw0&list=PLGSOZAHg1yQEatqhWza_ae83e313-GLTO">bad obsession</a>
     <p></p>
 
     <hr>
